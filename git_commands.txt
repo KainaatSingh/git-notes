@@ -1,0 +1,25 @@
+Make a folder into a git repository:
+  1. Open terminal or command line
+  2. cd <folder path>
+  3. git init
+  
+Make a git repository into a normal folder
+  1. Open terminal or command line
+  2. cd <repository path>
+  3. rm -rf .git
+
+Add a file to a staging area
+  1. Open terminal or command line
+  2. cd <repository path>
+  3. git add <filename>
+ 
+Unstage a file
+  1. Open terminal or command line
+  2. cd <repository path>
+  3. git rm --cached <filename>
+  
+Add all changed files to staging area
+  1. Open terminal or command line
+  2. cd <repository path>
+  3. git add .
+  
